@@ -1,0 +1,9 @@
+NAME           HRTEST      WINDOWCOMPAT
+
+DESCRIPTION    'Test program for HRTIMER.SYS'
+
+PROTMODE
+
+HEAPSIZE       8192
+STACKSIZE      16384
+

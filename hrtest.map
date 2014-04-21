@@ -1,0 +1,93 @@
+
+ HRTEST
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000061CH CODE32                 CODE 32-bit
+ 0002:00000000 0000001CCH DATA32                 DATA 32-bit
+ 0002:000001CC 000000000H CONST32                CONST 32-bit
+ 0002:000001CC 000000000H EDC1                   EDC_CLASS 32-bit
+ 0002:000001CC 000000018H EDC2                   EDC_CLASS 32-bit
+ 0002:000001E4 000000000H EDC3                   EDC_CLASS 32-bit
+ 0002:000001E4 000000000H BSS32                  BSS 32-bit
+ 0002:000001E4 000000010H c_common               BSS 32-bit
+ 0002:00000200 000004000H STACK32                STACK 32-bit
+
+ Origin   Group
+ 0002:0   DGROUP
+ 0000:0   FLAT
+
+  Address         Publics by Name
+
+ 0000:00000000  Imp  atoi                 (DDE4SBS.atoi)
+ 0001:0000028C       CalcElapsedTime
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  exit                 (DDE4SBS.exit)
+ 0000:00000000  Imp  fflush               (DDE4SBS.fflush)
+ 0002:000001EC       hfTimer
+ 0001:0000003C       Initialize
+ 0001:00000000       main
+ 0000:00000000  Imp  malloc               (DDE4SBS.malloc)
+ 0000:00000000  Imp  stdout               (DDE4SBS.stdout)
+ 0001:00000358       Terminate
+ 0001:00000194       TimeIt
+ 0002:000001F0       ulOverheadMs
+ 0002:000001E4       ulOverheadNs
+ 0002:000001E8       ulTimePeriod
+ 0002:000001B0       _argc
+ 0002:000001B4       _argv
+ 0000:00000000  Imp  _CRT_init            (DDE4SBS._CRT_init)
+ 0000:00000000  Imp  _DosFlatToSel        (DDE4SBS._DosFlatToSel)
+ 0000:00000000  Imp  _DosSelToFlat        (DDE4SBS._DosSelToFlat)
+ 0002:000001E4       _edata
+ 0002:00000200       _end
+ 0000:00000000  Imp  _environ             (DDE4SBS._environ)
+ 0000:00000000  Imp  _exception_procinit  (DDE4SBS._exception_procinit)
+ 0002:000001AC       _exeentry
+ 0000:00000000  Imp  _EXE_Exception       (DDE4SBS._EXE_Exception)
+ 0000:00000000  Imp  _matherr             (DDE4SBS._matherr)
+ 0000:00000000  Imp  _PrintErrMsg         (DDE4SBS._PrintErrMsg)
+ 0000:00000000  Imp  _printfieee          (DDE4SBS._printfieee)
+ 0001:00000424       _setuparg
+ 0000:00000000  Imp  _terminate           (DDE4SBS._terminate)
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  _environ             (DDE4SBS._environ)
+ 0000:00000000  Imp  _DosSelToFlat        (DDE4SBS._DosSelToFlat)
+ 0000:00000000  Imp  malloc               (DDE4SBS.malloc)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  stdout               (DDE4SBS.stdout)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  _exception_procinit  (DDE4SBS._exception_procinit)
+ 0000:00000000  Imp  _terminate           (DDE4SBS._terminate)
+ 0000:00000000  Imp  fflush               (DDE4SBS.fflush)
+ 0000:00000000  Imp  _EXE_Exception       (DDE4SBS._EXE_Exception)
+ 0000:00000000  Imp  _PrintErrMsg         (DDE4SBS._PrintErrMsg)
+ 0000:00000000  Imp  _matherr             (DDE4SBS._matherr)
+ 0000:00000000  Imp  _CRT_init            (DDE4SBS._CRT_init)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  exit                 (DDE4SBS.exit)
+ 0000:00000000  Imp  _printfieee          (DDE4SBS._printfieee)
+ 0000:00000000  Imp  _DosFlatToSel        (DDE4SBS._DosFlatToSel)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  atoi                 (DDE4SBS.atoi)
+ 0001:00000000       main
+ 0001:0000003C       Initialize
+ 0001:00000194       TimeIt
+ 0001:0000028C       CalcElapsedTime
+ 0001:00000358       Terminate
+ 0001:00000424       _setuparg
+ 0002:000001AC       _exeentry
+ 0002:000001B0       _argc
+ 0002:000001B4       _argv
+ 0002:000001E4       _edata
+ 0002:000001E4       ulOverheadNs
+ 0002:000001E8       ulTimePeriod
+ 0002:000001EC       hfTimer
+ 0002:000001F0       ulOverheadMs
+ 0002:00000200       _end
+
+Program entry point at 0001:03A4
